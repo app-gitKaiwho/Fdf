@@ -8,3 +8,4 @@ One big issue with my code : for an easy coloring based on height, every single 
 ![](https://github.com/app-gitKaiwho/Fdf/blob/main/42.gif)
 
 I used Raycasting (wich was i belive unusefully complex for this project)
+Even if in the end the raycast calcultion is nothing more than similar triangles formula
