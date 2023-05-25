@@ -6,7 +6,7 @@
 #    By: lvon-war <lvonwar42@gmail.com>             +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/25 16:52:50 by lvon-war          #+#    #+#              #
-#    Updated: 2023/05/25 16:52:53 by lvon-war         ###   ########.fr        #
+#    Updated: 2023/05/25 16:58:08 by lvon-war         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,18 +22,18 @@ LIBFT	=	./include/libft/lib.a
 SRC_PATH := ./SRC/
 OBJ_PATH := ./OBJ/
 
+# Compliation under Mac OS
 ifeq ($(shell uname),Darwin)
-	# macOS
 INC_PATH := -I ./include/libft/include -I ./include/minilibx_macos -I ./include
 LINKER := -L ./include/minilibx_macos -lmlx -lm
 FRAMEWORK := -framework Appkit -framework OpenGl
-
+# Compliation under anything else (but only work under linux)
 else
-
 INC_PATH := -I ./include/libft/include -I ./include/minilibx-linux -I ./include
 LINKER := -L ./include/minilibx-linux -lmlx -lX11 -lXext -lm
 FRAMEWORK :=
 endif
+
 all : $(LIBFT) $(NAME)
 
 $(LIBFT) :
@@ -62,13 +62,13 @@ clean:
 fclean: clean
 		@$(RM) -rfv $(NAME)
 		@$(RM) -rfv $(ENAME)
-
 deepclean : fclean
 		@make fclean -C ./include/libft
 re: fclean all
 
 san: all
 	$(CC) $(CFLAGS) $(NAME) $(LIBFT)  $(INC_PATH) $(FRAMEWORK) $(LINKER) -fsanitize=address -o $(ENAME)
+
 test: all
 	./fdf mytest.fdf
 
