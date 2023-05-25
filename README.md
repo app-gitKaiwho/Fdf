@@ -6,3 +6,4 @@ This project uses the minilibx from : https://github.com/42Paris/minilibx-linux
 One big issue with my code : for an easy coloring based on height, every single pixel is casted after lines are being drawn, and not before wich causes bad performance on big maps may correct later
 
 ![](https://github.com/app-gitKaiwho/Fdf/blob/main/42.gif)
+![raycast](https://github.com/app-gitKaiwho/Fdf/assets/71593397/d4d0ad36-c728-4153-ade6-9650ba679e46)
