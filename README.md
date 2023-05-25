@@ -12,4 +12,4 @@ I used Raycasting (which was i belive unusefully complex for this project)
 Even if in the end the raycast calcultion is nothing more than similar triangles formula
 
 <img src="https://github.com/app-gitKaiwho/Fdf/assets/71593397/3f303ae4-3cbe-4b50-a8e7-abdc41bcebdc" width="30%" height="30%" />
-<img src="https://github.com/app-gitKaiwho/Fdf/assets/71593397/40ac2c03-db3c-461f-8f74-cce3e3c60d0e" width="43.5%" height="43.5%" />
+<img src="https://github.com/app-gitKaiwho/Fdf/assets/71593397/40ac2c03-db3c-461f-8f74-cce3e3c60d0e" width="43.8%" height="43.8%" />
