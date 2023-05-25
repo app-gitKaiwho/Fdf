@@ -8,5 +8,4 @@ One big issue with my code : for an easy coloring based on height, every single 
 ![](https://github.com/app-gitKaiwho/Fdf/blob/main/42.gif)
 
 I used Raycasting (wich was i belive unusefully complex for this project)
-![raycast](https://github.com/app-gitKaiwho/Fdf/assets/71593397/d4d0ad36-c728-4153-ade6-9650ba679e46)
-<img src="https://github.com/app-gitKaiwho/Fdf/assets/71593397/d4d0ad36-c728-4153-ade6-9650ba679e46" width="50%" height="50%"/>
+<img src="https://github.com/app-gitKaiwho/Fdf/assets/71593397/d4d0ad36-c728-4153-ade6-9650ba679e46" width="40%" height="40%"/>
