@@ -6,7 +6,7 @@
 ![](https://github.com/app-gitKaiwho/Fdf/blob/main/42.gif)
 
 ### How to use
-  >After compiling, use "./fdf mapname.fdf".
+  >After compiling, use "./fdf mapname.fdf".<br>
   >Usable map stored under ./test_maps are used (same goes if you want to create a new one)
  
 ### Explanation
