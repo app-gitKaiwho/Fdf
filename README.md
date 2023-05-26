@@ -1,15 +1,15 @@
 # Fdf
 42 Project about drawing wireframe
 
-## Info
+### Info
 This project uses the minilibx from : https://github.com/42Paris/minilibx-linux
 
 ![](https://github.com/app-gitKaiwho/Fdf/blob/main/42.gif)
 
-## How to use
+### How to use
   after compiling, use "./fdf mapname.fdf" usable map stored under ./test_maps are used
  
-## Explaination
+### Explanation
 I used Raycasting (which was i belive unusefully complex for this project)
 even if in the end the raycast calcultion is nothing more than similar triangles formula
 
