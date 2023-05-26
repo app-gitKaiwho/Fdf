@@ -18,5 +18,5 @@
 
 ### Issues
   >One big issue with my code :<br>
-  >for an easy coloring based on height, every single pixel is casted after lines are being drawn,
-  >and not before which causes bad  performance on big maps may correct later
+  >For an easy coloring based on height, every single pixel is casted after lines are being drawn,
+  >and not before which causes bad performance on big maps, may correct later
