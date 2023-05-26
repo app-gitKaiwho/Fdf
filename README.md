@@ -17,5 +17,6 @@
 <img src="https://github.com/app-gitKaiwho/Fdf/assets/71593397/40ac2c03-db3c-461f-8f74-cce3e3c60d0e" width="43.8%" height="43.8%" />
 
 ### Issues
-  >One big issue with my code : for an easy coloring based on height, every single pixel is casted after lines are being drawn,
+  >One big issue with my code :<br>
+  >for an easy coloring based on height, every single pixel is casted after lines are being drawn,
   >and not before which causes bad  performance on big maps may correct later
