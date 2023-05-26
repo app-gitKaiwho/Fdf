@@ -2,6 +2,7 @@
 ### Info
   >42 Project about drawing wireframe.<br>
   >This project uses the minilibx from : https://github.com/42Paris/minilibx-linux
+  >and my own lib : https://github.com/app-gitKaiwho/libft
 
 ![](https://github.com/app-gitKaiwho/Fdf/blob/main/42.gif)
 
