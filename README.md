@@ -3,7 +3,7 @@
   >42 Project about drawing wireframe.<br>
   >This project uses the minilibx from : https://github.com/42Paris/minilibx-linux<br>
   >and my own lib : https://github.com/app-gitKaiwho/libft<br>
-  It work on mac and linux and can be tested on windows if you use the lastest vertion of WSL
+  It work on mac, linux and can be tested on windows if you use the lastest vertion of WSL
 
 ![](https://github.com/app-gitKaiwho/Fdf/blob/main/42.gif)
 
