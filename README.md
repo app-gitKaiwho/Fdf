@@ -2,6 +2,7 @@
 ### Info
   >42 Project about drawing wireframe.<br>
   >This project uses the minilibx from : https://github.com/42Paris/minilibx-linux
+  >This project need libx11-dev libxext-dev to be installed
 
 ![](https://github.com/app-gitKaiwho/Fdf/blob/main/42.gif)
 
