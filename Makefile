@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: lvon-war <lvonwar42@gmail.com>             +#+  +:+       +#+         #
+#    By: lvon-war <lvon-war@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/25 16:52:50 by lvon-war          #+#    #+#              #
-#    Updated: 2023/05/25 17:44:44 by lvon-war         ###   ########.fr        #
+#    Updated: 2024/03/11 12:00:10 by lvon-war         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,6 @@ FILES	=	Fdf.c hook.c visu.c parsing.c Matrixcalc.c button.c
 
 # Path for .c , .h and .o Files 
 LIBFT	=	./include/libft/lib.a
-MLX := ./include/minilibx-linux/libmlx.a
 SRC_PATH := ./SRC/
 OBJ_PATH := ./OBJ/
 MLX_PATH := ./include/minilibx-linux
@@ -29,13 +28,15 @@ ifeq ($(shell uname),Darwin)
 INC_PATH := -I ./include/libft/include -I ./include/minilibx_macos -I ./include
 LINKER := -L ./include/minilibx_macos -lmlx -lm
 FRAMEWORK := -framework Appkit -framework OpenGl
-MLX := ./include/minilibx_macos
+MLX := ./include/minilibx_macos/libmlx.a
+MLX_PATH := ./include/minilibx_macos
 
 # Compliation under anything else (but only work under linux)
 else
 INC_PATH := -I ./include/libft/include -I ./include/minilibx-linux -I ./include
 LINKER := -L ./include/minilibx-linux -lmlx -lX11 -lXext -lm
 FRAMEWORK :=
+MLX := ./include/minilibx-linux/libmlx.a
 MLX_PATH := ./include/minilibx-linux
 endif
 
